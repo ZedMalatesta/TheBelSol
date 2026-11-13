@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Крок за крокам: мост «Салідарнай Беларусі»</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #e9e7e2; font-family: "PT Sans", Arial, sans-serif; color: #1d1d1b; }
+  .sheet { max-width: 1120px; margin: 24px auto; background: #fff; padding: 28px 40px 22px; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+  .topbar { background: #2b2b2b; color: #fff; display: flex; justify-content: space-between; align-items: center; padding: 9px 16px; font-weight: 700; font-size: 14px; letter-spacing: .02em; }
+  .topbar .right { font-size: 12px; font-weight: 700; }
+  .topbar .right span { font-weight: 400; margin-left: 14px; }
+  h1 { font-family: "PT Serif", Georgia, serif; font-size: 34px; margin: 22px 0 22px; line-height: 1.15; }
+  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 34px; }
+  .cell { display: flex; gap: 12px; align-items: flex-start; }
+  .num { flex: none; width: 30px; height: 30px; border-radius: 50%; background: #8a8a8a; color: #fff; font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+  .cell h2 { font-size: 17px; margin: 4px 0 6px; font-weight: 700; }
+  .cell p { margin: 0; font-size: 14.5px; line-height: 1.5; }
+  .pillars { margin: 0; padding: 0; list-style: none; }
+  .pillars li { font-size: 14.5px; line-height: 1.45; margin-bottom: 8px; }
+  .pillars b { display: block; }
+  .pillars i { color: #555; }
+  .bar { display: flex; gap: 14px; align-items: baseline; padding: 11px 16px; margin-top: 10px; }
+  .bar.dark { background: #2f2f2f; color: #fff; margin-top: 26px; }
+  .bar.grey { background: #8f8f8f; color: #fff; }
+  .bar .label { flex: none; font-weight: 700; font-size: 14px; letter-spacing: .03em; min-width: 150px; }
+  .qs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; font-size: 13.5px; line-height: 1.45; }
+  .qs b { display: block; margin-bottom: 2px; }
+  .taxi { font-size: 15px; line-height: 1.45; }
+  .foot { font-size: 12px; color: #555; margin-top: 14px; }
+  @media (max-width: 760px) {
+    .sheet { margin: 0; padding: 18px 16px; box-shadow: none; }
+    h1 { font-size: 26px; }
+    .grid, .qs { grid-template-columns: minmax(0, 1fr); }
+    .bar { flex-direction: column; gap: 8px; }
+    .topbar { flex-direction: column; align-items: flex-start; gap: 4px; }
+  }
+  @media print {
+    @page { size: A4 landscape; margin: 10mm; }
+    body { background: #fff; }
+    .sheet { box-shadow: none; margin: 0; max-width: none; padding: 0; }
+    .bar.dark, .bar.grey, .topbar, .num { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="topbar">
+    <div>ПРАЦА Ў ПАРТЫЯХ · САЛІДАРНАЯ БЕЛАРУСЬ</div>
+    <div class="right">Сацыял-дэмакраты<span>вобраз будучыні</span></div>
+  </div>
+
+  <h1>Крок за крокам: мост «Салідарнай Беларусі»</h1>
+
+  <div class="grid">
+    <div class="cell"><div class="num">1</div><div>
+      <h2>Гэты бераг</h2>
+      <p>Прафсаюзы і суды пад кантролем улады, заводы жывуць на субсідыях, эканоміка залежыць ад расійскіх грошай.</p>
+    </div></div>
+
+    <div class="cell"><div class="num">2</div><div>
+      <h2>Той бераг</h2>
+      <p>Дэмакратычная дзяржава еўрапейскага ўзору з незалежнымі судамі і сацыяльна арыентаванай эканомікай: свабодныя прафсаюзы, сучасная прамысловасць, якая прадае ў Еўропу, грамадскія школы і бальніцы, дзе настаўнікі і ўрачы атрымліваюць годны заробак.</p>
+    </div></div>
+
+    <div class="cell"><div class="num">3</div><div>
+      <h2>Рака</h2>
+      <p>Стратныя дзяржпрадпрыемствы і фальшывая альтэрнатыва ім — рабаўнічая прыватызацыя, санкцыі ЕС, эканамічная залежнасць ад расійскага рынку і капіталу.</p>
+    </div></div>
+
+    <div class="cell"><div class="num">4</div><div>
+      <h2>Тры апоры</h2>
+      <ul class="pillars">
+        <li><b>Дэмакратычныя інстытуты і незалежныя суды.</b><i>Прыклад:</i> суддзяў больш не прызначае прэзідэнт.</li>
+        <li><b>Права на працу і пераход без страты даходу.</b><i>Прыклад:</i> работнік завода, які зачыняецца, атрымлівае дапамогу на ўзроўні ранейшага заробку, перанавучаецца і выходзіць на новую працу ў сваім горадзе.</li>
+        <li><b>Справядлівыя падаткі па прагрэсіўнай шкале.</b><i>Прыклад:</i> падатак на звышдаходы ідзе на заробкі настаўнікаў і ўрачоў.</li>
+      </ul>
+    </div></div>
+
+    <div class="cell"><div class="num">5</div><div>
+      <h2>Цана пераходу</h2>
+      <p>Плацяць найбагацейшыя (часова павышаны падатак на звышдаходы) і наменклатура, а таксама фонды ЕС і міжнародных партнёраў. Часова расце нагрузка на бюджэт. Расчаруем тых, хто чакае хуткай прыватызацыі.</p>
+    </div></div>
+
+    <div class="cell"><div class="num">6</div><div>
+      <h2>Першая дошка</h2>
+      <p>Адкрыты аўдыт і адкрытая ацэнка дзяржзаводаў, грамадскі кантроль над прыватызацыяй, закон пра свабодныя прафсаюзы, пілот «Права на працу» ў трох невялікіх гарадах.</p>
+    </div></div>
+  </div>
+
+  <div class="bar dark">
+    <div class="label">ТРЫ ПЫТАННІ</div>
+    <div class="qs">
+      <div><b>Расія, Еўрасаюз ці свой шлях?</b>Еўропа: крок за крокам збліжаемся з ЕС і гэтак жа паступова вызваляемся ад эканамічнай залежнасці ад Расіі.</div>
+      <div><b>Мова і культура</b>Спачатку хлеб, потым граматыка: беларускую мову падтрымліваем, але нікога не прымушаем і не робім мову галоўнай тэмай выбараў.</div>
+      <div><b>Людзі ранейшай улады і дзяржзаводы</b>Адказваюць начальнікі, а не тыя, хто проста там працаваў.</div>
+    </div>
+  </div>
+
+  <div class="bar grey">
+    <div class="label">ФРАЗА ДЛЯ ТАКСІСТА</div>
+    <div class="taxi">Мы за тых, хто працуе, супраць рабаўнічай прыватызацыі, каб да 2036 года ніхто не баяўся ні за працу, ні за слова.</div>
+  </div>
+
+  <div class="foot">Моладзевыя палітычныя дэбаты: Масты · Вільня, 2026</div>
+</div>
+</body>
+</html>
